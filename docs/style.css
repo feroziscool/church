@@ -1512,10 +1512,16 @@ ul.bullet {
 .contact-form textarea {
   min-height: 150px; }
 
-ul.social-media-icons {
-  overflow: auto;
+.wrapper-social-media-icons{
   text-align: center;
 }
+
+  ul.social-media-icons {
+    overflow: auto;
+    display: inline-block;
+    width: auto;
+    padding: 10px 0;
+  }
 
   ul.social-media-icons li {
     list-style-type: none;
