@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Living Hope Fellowship</title>
+
+		<!-- Loading third party fonts -->
+		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		<div class="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="#" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<h1 class="site-title">Living Hope Fellowship</h1>
+					</a>
+
+					<div class="main-navigation">
+						<button class="menu-toggle"><i class="fa fa-bars"></i> Menu</button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home<small>Lorem ipsum</small></a></li>
+							<li class="menu-item current-menu-item"><a href="statement.html">Statement of Faith <small>Cupidatat non proident</small></a></li>
+							<li class="menu-item"><a href="gallery.html">Gallery <small>Cupidatat non proident</small></a></li>
+							<li class="menu-item"><a href="#">Projects <small>Cupidatat non proident</small></a></li>
+							<li class="menu-item"><a href="seremons.html">Ministries<small>Laboris nisi aliquip</small></a></li>
+							<li class="menu-item"><a href="events.html">Events <small>Sunt in culpa</small></a></li>
+							<li class="menu-item"><a id="contact_us_menu" href="#contact_form">Contact Us<small>lorem ipsum</small></a></li>
+						</ul>
+					</div>
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header> <!-- .site-header -->
+
+			<div class="page-head" data-bg-image="images/page-head-1.jpg">
+				<div class="container">
+					<h2 class="page-title">Statement of faith</h2>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<div class="content col-md-8">
+								<h2 class="section-title">Statement of faith</h2>
+								
+								<p>
+									The Holy Bible, consisting of Sixty Six books which is the fully and uniquely inspired Word of God, the only infallible, sufficient and authoritative rule of faith and practice.(2Timothy 3:15-17).
+								</p>
+
+								<p>
+									Only One True God, eternally existent in three persons: Father, Son and Holy Spirit. (1Timothy 3:16, 2 Corinthians 13:14).
+								</p>
+
+								<p>
+									The Deity of our Lord Jesus Christ, His virgin birth, His sinless life, His vicarious death and atonement through His shed blood, His bodily resurrection, His ascension, His mediatory intercession, His teachings and His personal return in power and glory. He is the only Saviour of mankind.(Colossians 1:15-23, 1Thessalonians5:23).
+								</p>
+								
+								<p>
+									The salvation of lost and sinful men through regeneration by the Holy Spirit, salvation is by grace through faith. (Ephesians1:13).
+								</p>
+
+								<p>
+									The indwelling of the believer by the Holy Spirit, speaking in tongues, moving in manifestation & fruit of The Holy Spirit. By whom the Christian are enabled to live a godly life.(Acts 1:8, 2:4; 1Corinthians2:13).
+								</p>
+
+								<p>
+									The resurrection of both the saved and the lost; they that are saved unto the resurrection of life, and they that are lost unto the resurrection of damnation.(John 5:29)
+								</p>
+
+								<p>
+									The Spiritual unity of all believers in our Lord Jesus Christ, who comprise the Church, the Body of Christ.(1Corinthians 12:12,27)
+								</p>
+
+								
+							</div>
+							<div class="sidebar col-md-3 col-md-offset-1">
+								<div class="widget">
+									<h3 class="widget-title">Quote of the day</h3>
+									<p>
+										<i class="fa fa-quote-left"></i>
+										If you don't like something, change it. If you can't change it, change your attitude. Don't complain.
+										<i class="fa fa-quote-right"></i>
+									</p>
+									<i class="fa fa-minus"></i>
+									Maya Angelou
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</main> <!-- .main-content -->
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Our address</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perspiciatis magnam, ab ipsa laboriosam tempore tenetur, aliquid repellat, ex cum dicta reiciendis accusamus. Omnis repudiandae quasi mollitia, iusto odio dignissimos.</p>
+								<ul class="address">
+									<li><i class="fa fa-map-marker"></i> 329 Church St, Garland, TX 75042</li>
+									<li><i class="fa fa-phone"></i> (425) 853 442 552</li>
+									<li><i class="fa fa-envelope"></i> info@yourchurch.com</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Find us on map</h3>
+								<div id="map"></div>
+								    <script>
+								      function initMap() {
+								        var uluru = {lat: 28.573625, lng: 77.255961};
+								        var map = new google.maps.Map(document.getElementById('map'), {
+								          zoom: 14,
+								          center: uluru
+								        });
+								        var marker = new google.maps.Marker({
+								          position: uluru,
+								          map: map,
+								          title : 'Living Hope Fellowship'			
+								        });
+								      }
+								    </script>
+								    <script async defer
+								    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBgHao_7BEe2GQedE4ankzC9_1HD4Ure8&callback=initMap">
+								    </script>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title" id="contact_form">Contact form</h3>
+								<form action="#" class="contact-form">
+									<div class="row">
+										<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
+										<div class="col-md-6"><input type="text" placeholder="Email..."></div>
+									</div>
+									
+									<textarea name="" placeholder="Your message..."></textarea>
+									<div class="text-right"><input type="submit" value="Send message"></div>
+									
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<div class="wrapper-social-media-icons">
+						<ul class="social-media-icons">
+							<li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
+						</ul>
+					</div>
+
+					<p class="colophon">Copyright 2017 Living Hope Fellowship. All right reserved</p>
+				</div><!-- .container -->
+			</footer> <!-- .site-footer -->
+
+		</div>
+		
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+
+</html>
