@@ -1326,7 +1326,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   list-style: none;
   margin-bottom: 30px; }
   .event-list li {
-    padding: 10px 50% 12px 0;
+    padding: 10px 50% 10px 0;
     padding-right: 50%;
     position: relative;
     border-bottom: 1px solid #e5e5e5; }
@@ -1336,7 +1336,8 @@ form input[type="submit"], form button, form input[type="reset"] {
     display: inline-block;
     margin-bottom: 0;
     font-size: 14px;
-    font-size: 1em; }
+    font-size: 1em; 
+    width: 80%; }
   .event-list .event-meta {
     position: absolute;
     width: 50%;
