@@ -1,9 +1,3 @@
-/*!
- * Project_Name: Compass Starter
- * Author: Ariona, Rian
- * Email: yans_fied[at]yahoo.com
- * Url: http://www.ariona.net
- */
 /*=========================================== 
  * Importing CSS Libraries
  *===========================================*/
@@ -1332,7 +1326,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   list-style: none;
   margin-bottom: 30px; }
   .event-list li {
-    padding: 10px 50% 10px 0;
+    padding: 10px 50% 12px 0;
     padding-right: 50%;
     position: relative;
     border-bottom: 1px solid #e5e5e5; }
@@ -1384,7 +1378,8 @@ form input[type="submit"], form button, form input[type="reset"] {
       width: 150px; }
 
 .text-center {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
 
 .text-right {
   text-align: right; }
