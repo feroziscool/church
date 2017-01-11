@@ -1443,6 +1443,13 @@ form input[type="submit"], form button, form input[type="reset"] {
     font-size: 1em;
     font-weight: 600; }
 
+  .family-image{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(0px, -50%);
+  }
+
 .sidebar .widget {
   margin-bottom: 40px; }
   .sidebar .widget .widget-title {
